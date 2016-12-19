@@ -29,3 +29,6 @@ AUTHOR_NAME="your committer name"
 ## Before 2016-12-19 after 2016-12-01
 
 `sh generate_report.sh -b 2016-12-19 -a 2016-12-01`
+
+
+### write better git commit message becasue you can do it once for all
