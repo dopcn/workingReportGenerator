@@ -1,9 +1,9 @@
 # workingReportGenerator
 日报周报月报生成脚本 generate report by extracting git log of last week last month
 
-# usage
+# Usage
 
-## First set up your work directory in script
+## First set up your work directory path in script
 
 ```
 #!/bin/bash
@@ -18,7 +18,7 @@ AUTHOR_NAME="your committer name"
 
 `sh generate_report.sh -yd`
 
-## Last week
+## Last week (if today is Fri. Sat. Sun. this script'll extract log of this week from Mon. to Fri. Otherwise extract log of last week)
 
 `sh generate_report.sh -lw`
 
@@ -31,4 +31,4 @@ AUTHOR_NAME="your committer name"
 `sh generate_report.sh -b 2016-12-19 -a 2016-12-01`
 
 
-### write better git commit message becasue you can do it once for all
+### Write better git commit message becasue you can do it once for all
