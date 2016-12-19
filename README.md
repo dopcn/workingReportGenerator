@@ -30,5 +30,6 @@ AUTHOR_NAME="your committer name"
 
 `sh generate_report.sh -b 2016-12-19 -a 2016-12-01`
 
+### The extracted log will be copied to system pasteboard. Paste it anywhere you want.
 
 ### Write better git commit message becasue you can do it once for all
