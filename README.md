@@ -3,18 +3,29 @@
 
 # usage
 
-yesterday
+## First set up your work directory in script
+
+```
+#!/bin/bash
+
+GIT_DIR="your git directory"
+AUTHOR_NAME="your committer name"
+...
+
+```
+
+## Yesterday
 
 `sh generate_report.sh -yd`
 
-last week
+## Last week
 
 `sh generate_report.sh -lw`
 
-last month
+## Last month
 
 `sh generate_report.sh -lm`
 
-before 2016-12-19 after 2016-12-01
+## Before 2016-12-19 after 2016-12-01
 
 `sh generate_report.sh -b 2016-12-19 -a 2016-12-01`
