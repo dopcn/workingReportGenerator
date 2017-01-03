@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 GIT_DIR="your git directory"
 AUTHOR_NAME="your committer name"
 
